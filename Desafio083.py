@@ -1,0 +1,5 @@
+n = list()
+expressao = str(input('Digite uma expreção: '))
+n.append(expressao[:])
+print(n)
+print('(' in n)

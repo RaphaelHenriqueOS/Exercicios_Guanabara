@@ -1,0 +1,8 @@
+nome = str(input('Digite o nome: '))
+print('todas as letras maiúsculas: {}'.format(nome.upper()))
+print('todas as letras minúsculas: {}'.format(nome.lower()))
+lista = nome.split()
+nome = nome.split()
+nome = ''.join(nome)
+print('Quantidade de letras sem espaço: {}'.format(len(nome)))
+print('O primeiro nome da string possui: {} letras'.format(len(lista[0])))
